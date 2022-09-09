@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.nav-clr{
+    background-color: #000000CC;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #c2c2c5;
+    font-size: 12px;
+    padding-left: 25px;
+}
+#set-nav{
+    margin-left: 21%;
+    text-align: center;
+    
+}
+@media only screen and (max-width:765px){
+    #set-nav{
+        margin-left: 0%;
+        
+    }
+}
