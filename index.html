@@ -1,12 +1,18 @@
 <html>
     <head>
         <title>Apple</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="home.css" rel="stylesheet" type="text/css"/>
+        <script src="apple.js" ></script>
     </head>
-    <html>
+    <body>
+        <div id="coupan">
+            <button onclick="closecoupan()">&times;</button>
+            <img src="images/coupanw.jpg"/>
+        </div>
         <div id="navspace">
             <nav class="navbar navbar-inverse nav-clr">
                 <div class="container-fluid">
@@ -76,7 +82,7 @@
                 <img src="Images/airpods.jpg" alt="airpods"/>
             </div>
         </div>
-        <div id="contwatch">
+        <div class="contwatch">
             <div class="container container3">
                 <div id="head" class="setpad">
                     <h1>Watch</h1>
@@ -104,7 +110,7 @@
                 </div>
             </div>
         </div>
-        <div id="contwatch">
+        <div class="contwatch">
             <div class="container container3">
                 <div id="head" class="setpad">
                     <h1>Watch</h1>
@@ -130,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <div id="contwatch">
+        <div class="contwatch">
             <div class="container container3">
                 <div id="head" class="setpad">
                     <h1>MacBook Air</h1>
@@ -255,5 +261,8 @@
                 </div>
             </div>
         </footer>
-    </html>
+        <script>
+            window.onload =loadcoupan();
+        </script>
+    </body>
 </html>

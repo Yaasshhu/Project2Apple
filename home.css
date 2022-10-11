@@ -4,6 +4,32 @@ body{
     margin: 0;
     padding: 0;
 }
+#coupan{
+    background-color: gray;
+    height: 490px;
+    width: 678px;
+    /* margin: -200px 37%; */
+    z-index: 100;
+    /* position: absolute; */
+    position: fixed;
+    margin: 7% 29%;
+    box-shadow: 0px 0px 7px 3px rgb(77, 75, 75);
+    visibility: hidden;
+}
+#coupan img{
+    height: 100%;
+    width: 100%;
+}
+#coupan button{
+    position: absolute;
+    border-radius: 0;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    font-size: 20px;
+    border: none;
+    float: right;
+    margin-left: 96%;
+}
 #navspace{
     height: 13%;
     width: 100%;
@@ -110,8 +136,7 @@ body{
 #airpodimg img{
     height: 338px;
 }
-#contwatch{
-    height:580px;
+.contwatch{
     width: 100%;
     display: flex;
 }
@@ -186,7 +211,6 @@ body{
 footer{
     height: 740px;
     width: 100%;
-    background-color: #F5F5F7;
     margin-top: 1%;
 }
 .foot{
@@ -258,4 +282,233 @@ footer{
     color: #1d1d1f;
     border-left: 0.8px solid #c8c8ce ;
     padding:0px 10px;
+}
+@media(max-width:900px){
+    .contwatch{
+        flex-direction: column;
+    }
+    .container3{
+        width: 100%;
+    }
+    .container4{
+        width: 100%;
+    }
+    .container5{
+        width: 100%;
+    }
+    #coupan{
+        height: 400px;
+        width: 585px;
+        margin: 33% 17%;
+    }
+    #coupan button{
+        margin-left: 94%;
+    }
+}
+@media(max-width:600px){
+    .container{
+        margin: 0;
+    }
+    footer{
+        height: 690px;
+        background-color: #F5F5F7;
+    }
+    .foot{
+        font-size: 5px;
+        margin: 2% 10%;
+    }
+    .lstfoot ul li a{
+        font-size: 9px;
+    }
+    #storelst{
+        height: 430px;
+    }
+    .lstfoot ul li {
+        list-style: none;
+        margin: 6px 0px;
+    }
+    .lstfoot h3{
+        font-size: 7px;
+    }
+    .container1{
+        height: 335px;
+    }
+    .container h1{
+        font-size: 35px;
+    }
+    .container h2{
+        font-size: 19px;
+    }
+    .container h4{
+        font-size: 14px;
+        margin-top: 5%;
+
+    }
+    .container a{
+        font-size: 18px;
+    }
+    #headimg img{
+        height: 165px;
+    }
+    #headimg1 img{
+        height: 220px;
+    }
+    .container2{
+        height: 335px;
+        overflow: hidden;
+        margin-top: 2%;
+    }
+    #airpodimg img{
+        height: 160px;
+    }
+    #watchimg1 img{
+        height: 125px;
+        margin-top: 2%;
+    }
+    .container3{
+        height: 335px;
+    }
+    #watchimg2 img{
+        height: 112px;
+        margin-top: 6%;
+    }
+    .container4{
+        height: 335px;
+        margin: 0;
+    }
+    .setpad1 h2{
+        line-height: 20px;
+    }
+    .container5{
+        height: 335px;
+    }
+    #watchimg3 img{
+        height: 144px;
+        margin-top: 4%;
+    }
+    #watchimg4 img{
+        height: 190px;
+        margin-top: 3%;
+
+    }
+    #coupan{
+        height: 286px;
+        width: 352px;
+        margin: 55% 15%;
+    }
+    #coupan button{
+        margin-left: 91%;
+    }
+}
+@media(max-width:330px){
+    .container{
+        margin: 0;
+    }
+    footer{
+        height: 690px;
+        background-color: #F5F5F7;
+    }
+    .foot{
+        font-size: 4px;
+        margin: 2% 1%;
+    }
+    .lstfoot ul li a{
+        font-size: 6px;
+    }
+    #storelst{
+        height: 530px;
+    }
+    .lstfoot ul li {
+        list-style: none;
+        margin: 6px 0px;
+    }
+    .lstfoot h3{
+        font-size: 6px;
+    }
+    #footend ul li a {
+        padding: 0px 5px;
+    }
+    .container1{
+        height: 294px;
+    }
+    .container h1{
+        font-size: 27px;
+    }
+    .container h2{
+        font-size: 19px;
+        display: none;
+    }
+    .container h4{
+        font-size: 12px;
+        margin-top: 5%;
+
+    }
+    .container a{
+        font-size: 14px;
+        margin: 0px 14px;
+    }
+    #headimg img{
+        height: 164px;
+        width: 92%;
+    }
+    #headimg1 img{
+        height: 215px;
+    }
+    .container2{
+        height: 294px;
+        overflow: hidden;
+        margin-top: 2%;
+    }
+    #airpodimg img{
+        height: 160px;
+    }
+    #watchimg1 img{
+        height: 150px;
+        margin-top: 2%;
+    }
+    .container3{
+        height: 294px;
+
+        overflow: scroll;
+    }
+    #watchimg2 img{
+        height: 140px;
+        margin-top: 6%;
+    }
+    .container4{
+        height: 294px;
+        margin: 0;
+    }
+    .setpad1 h2{
+        line-height: 20px;
+    }
+    .container5{
+        height: 294px;
+        margin-top: 12%;
+    }
+    #watchimg3 img{
+        height: 170px;
+        margin-top: 6%;
+    }
+    #watchimg4 img{
+        height: 190px;
+        margin-top: 3%;
+
+    }
+    #setline{
+        margin-top: 11px;
+    }
+    #coupan{
+        height: 199px;
+        width: 231px;
+        margin: 51% 13%;
+    }
+    #coupan button{
+        margin-left: 88%;
+    }
+}
+@media(max-width:830px){
+    #storelst{
+        height: 530px;
+    }
 }
