@@ -1,0 +1,49 @@
+
+.darklgt{
+    margin-top: 4%;
+    position: absolute;
+    margin-left: 3%;
+}
+.dbcolor{
+    background-color: black;
+}
+.bcolor{
+    background-color: white;
+}
+.lgtfoot h3{
+    color: black;
+}
+.redpdrk{
+    visibility: hidden;
+}
+.cngbtnd{
+    height: 31px;
+    width: 81px;
+    padding: 0px;
+    font-size: 12px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 11px;
+}
+@media(max-width:900px){
+    .cngbtnd{
+        width: 63px;
+        font-size: 9px;
+        height: 20px;
+    }
+}
+@media(max-width:600px){
+    .cngbtnd{
+        height: 22px;
+        width: 59px;
+        font-size: 9px;;
+    }
+}
+@media(max-width:300px){
+    .cngbtnd{
+        height: 22px;
+        width: 52px;
+        font-size: 8px;
+    }
+}

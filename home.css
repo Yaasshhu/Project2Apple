@@ -31,7 +31,7 @@ body{
     margin-left: 96%;
 }
 #navspace{
-    height: 13%;
+    height: 16%;
     width: 100%;
 }
 .navbar{
@@ -228,6 +228,21 @@ footer{
 .lstfoot{
     width: 14%;
 }
+.cngbtnl{
+    height: 31px;
+    width: 81px;
+    padding: 0px;
+    font-size: 12px;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    border-radius: 11px;
+}
+.redp{
+    color: orange;
+    font-size: 11px;
+    visibility: visible;
+}
 #storelst{
     height: 458px;
     width: 100%;
@@ -235,7 +250,7 @@ footer{
 }
 .lstfoot h3{
     font-size: 12px;
-    color: #040405;
+    color: white;
 }
 .lstfoot ul{
     padding-left: 0%;
@@ -304,7 +319,14 @@ footer{
     #coupan button{
         margin-left: 94%;
     }
-}
+    .cngbtnl{
+        width: 63px;
+        font-size: 9px;
+        height: 20px;
+    }
+    .redp{
+        font-size: 9px;
+    }
 @media(max-width:600px){
     .container{
         margin: 0;
@@ -398,6 +420,14 @@ footer{
     }
     #coupan button{
         margin-left: 91%;
+    }
+    .cngbtnl{
+        height: 22px;
+        width: 59px;
+        font-size: 9px;;
+    }
+    .redp{
+        font-size: 9px;
     }
 }
 @media(max-width:330px){
@@ -506,6 +536,15 @@ footer{
     #coupan button{
         margin-left: 88%;
     }
+    .cngbtnl{
+        height: 22px;
+        width: 52px;
+        font-size: 8px;
+    }
+    .redp{
+        font-size: 7px;
+    }
+}
 }
 @media(max-width:830px){
     #storelst{
