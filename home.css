@@ -63,6 +63,12 @@ body{
     margin-top:1px;
     font-size: 13px;
 }
+#Cityn{
+    color: rgb(54, 50, 50);
+}
+#tempnote{
+    color: rgb(242, 52, 52);
+}
 @media only screen and (max-width:765px){
     #set-nav{
         margin-left: 0%;
@@ -298,6 +304,12 @@ footer{
     border-left: 0.8px solid #c8c8ce ;
     padding:0px 10px;
 }
+#temp{
+    width: 93%;
+    position: absolute;
+    text-align: right;
+    margin-top: 2.5%;
+}
 @media(max-width:900px){
     .contwatch{
         flex-direction: column;
@@ -430,6 +442,7 @@ footer{
         font-size: 9px;
     }
 }
+
 @media(max-width:330px){
     .container{
         margin: 0;
